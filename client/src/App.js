@@ -1,10 +1,13 @@
-import Card from './components/card';
+import Form from './components/Form';
+import WordList from './components/wordList';
+
 import './css/App.css';
 
 function App() {
 	return (
 		<div className='font-bold'>
-			<Card />
+			<Form />
+			<WordList />
 		</div>
 	);
 }
